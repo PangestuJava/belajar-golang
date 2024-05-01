@@ -7,7 +7,7 @@ func main() {
 	// const juga tidak masalah jika tidak dipakai berbeda dengan variable
 	const (
 		firstName = "Rahmat"
-		lastName = "Hidayat"
+		lastName  = "Hidayat"
 	)
 
 	fmt.Println(firstName)
