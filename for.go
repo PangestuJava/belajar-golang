@@ -31,6 +31,12 @@ func main() {
 		fmt.Printf("Index: %d, Value: %d\n", index, value)
 	}
 
+	// Perulangan menggunakan for range pada array
+	number := [...]int{1, 2, 3, 4, 5}
+	for index, value := range number {
+		fmt.Printf("Index: %d, Value: %d\n", index, value)
+	}
+
 	// Perulangan menggunakan for range pada map
 	person := map[string]string{"name": "John", "age": "30"}
 	for key, value := range person {
